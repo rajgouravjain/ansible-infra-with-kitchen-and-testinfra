@@ -313,7 +313,7 @@ GEM
       train-core (~> 3.0)
       tty-prompt (~> 0.17)
       tty-table (~> 0.10)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     json (2.5.1)
     jwt (2.2.3)
     kitchen-ansible (0.56.0)
@@ -580,6 +580,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-17
+  x86_64-linux
 
 DEPENDENCIES
   inspec (>= 4.37.8)
