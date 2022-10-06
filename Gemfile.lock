@@ -6,8 +6,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     aws-eventstream (1.1.1)
     aws-partitions (1.456.0)
     aws-sdk-apigateway (1.62.0)
@@ -374,7 +374,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    public_suffix (4.0.6)
+    public_suffix (5.0.0)
     rake (13.0.3)
     representable (3.1.1)
       declarative (< 0.1.0)
@@ -580,6 +580,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-17
+  x86_64-linux
 
 DEPENDENCIES
   inspec (>= 4.37.8)
